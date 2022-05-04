@@ -22,7 +22,7 @@ public class AppZmeika {
         this.main = new ScreenView(frame);
         frame.add(main);
 
-        frame.setSize(1024, 1024);
+        frame.setSize(512, 512);
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
         frame.addWindowListener(new WindowAdapter() {
